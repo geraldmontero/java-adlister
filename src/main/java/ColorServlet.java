@@ -12,8 +12,8 @@ public class ColorServlet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
        String color = request.getParameter("color");
-        RequestDispatcher dispatcher = getServletContext().getRequestDispatcher();
-        dispatcher.forward(request,response);
+//        RequestDispatcher dispatcher = getServletContext().getRequestDispatcher();
+//        dispatcher.forward(request,response);
         System.out.println(color);
 
     }
